@@ -15,8 +15,12 @@ Jestli chceš přispět do Jazykové Dokumentace nebo změnit již existující 
 * Použij https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (rendered https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[here]) for terms such as link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
 * Nebo https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (rendered https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[here]) for groups of functions such as link:http://arduino.cc/en/Reference/Serial[Serial].
 
+Na stránce https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-cz/AsciiDoc_sample/AsciiDoc_Dictionary`] najdeš přehled o AsciiDoc syntaxi.
+Toto zahrnuje názvy, texty, linky, obrázky, tabulky, kód a různé další multimédia (video, prezentace, audio a kód). Můžeš to najít https://www.arduino.cc/reference/cz/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[zde].
+
+
 Prosím pamatuj, že každý soubor s dokumenací by měl obsahovat minimálně popis, příklad kódu a linky na ostatní  relevantní zdroje (Podívej se také do sekce "Také")
-Pokud potřebuješ přidat obrázky do ASCII dokumentu, prosím vytvoř složku pojmenovanou "attachments" ve stejné složce, jako je ASCII dokument. Obrázku mohou být uloženy v SVG nebo PNG formátu (ne JPG!), s maximální velikostí 200KB.
+Pokud potřebuješ přidat obrázky do Asciidoc dokumentu, prosím vytvoř složku pojmenovanou "attachments" ve stejné složce, jako je Asciidoc dokument. Obrázku mohou být uloženy v SVG nebo PNG formátu (ne JPG!), s maximální velikostí 200KB.
 
 == Přispívaný obsah na GitHubu
 Jestli nejsi seznámen s verzovacím nástrojem Git, můžeš přispět rovonou na stránce GitHub pomocí jejich webového rozhraní. Vytvořili jsme krátký návod, jak na to zde: https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37.
