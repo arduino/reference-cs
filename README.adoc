@@ -1,37 +1,36 @@
-= Reference-cz
+= Reference-cs
 
-Reference-cz is the repo for the Language Reference documentation of the Arduino syntax in **Czech**.  
-All the Reference terms files are in AsciiDoc format.
+Reference-cs je repozitář pro Jazykovou Dokumentaci o Arduino syntaxi v češtině.
 
-Thank you for taking the time to contribute to Arduino content, this is really helpful to the whole Arduino Community. If you want to learn more on how to contribute to this project please check https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[this step by step tutorial].
+Díky, za investování tvého času do Arduino obsahu. Je to opravdu přínosné pro celou (celosvětovou) Arduino komunitu. Pokud se chceš dozvědět víc o přispívání do tohoto projektu, prosím navštiv  https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[tento tutoriál "krok po kroku"].
 
-== Content Creation and Editing
-If you want to contribute new content, create a new file (with any text or code editor) and save it as .adoc.  
-Do not use parenthesis or any special character in the file name.  
-In https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-cz/AsciiDoc_sample/AsciiDoc_Dictionary`] you will find an overview on the AsciiDoc syntax. This includes Titles, Text, Links, Images, Tables, Code and various embeds (video, slideshow, audio and code). You can see it rendered https://www.arduino.cc/reference/cz/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[here].
+== Vytváření obsahu a editace
+Pokud, chceš přispšt s novým obsahem, vytvoř nový soubor (s jakkýmkoliv textem nebo nebo kódem) a ulož ho jako .adoc. 
+Vyhni se prosím závorkám nebo jiným speciálním znakům v názvu soboru(ů).
+Na stránce https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-cz/AsciiDoc_sample/AsciiDoc_Dictionary`] najdeš přehled o AsciiDoc syntaxi.
+Toto zahrnuje názvy, texty, linky, obrázky, tabulky, kód a různé další multimédia (video, prezentace, audio a kód). Můžeš to najít https://www.arduino.cc/reference/cz/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[zde].
 
-If you want to contribute to the Language Reference or edit existing content, you can find two templates in reference-cz/AsciiDoc_sample/Reference_Terms:
+Jestli chceš přispět do Jazykové Dokumentace nebo změnit již existující obsah, můžeš najít dvě šablony v reference-cz/AsciiDoc_sample/Reference_Terms:
 
-* Use https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (rendered https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[here]) for terms such as link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
-* Use https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (rendered https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[here]) for groups of functions such as link:http://arduino.cc/en/Reference/Serial[Serial].
+* Použij https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (poskytnuty https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[zde]) pro termíny jako je link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
+* Nebo https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (poskytnuty https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[zde]) proskupiny funkcí jako link:http://arduino.cc/en/Reference/Serial[Serial].
 
-Please note that every Reference file should include as least a Description, some Example Code, and links to other relevant infos (See Also section). 
+Prosím pamatuj, že každý soubor s dokumenací by měl obsahovat minimálně popis, příklad kódu a linky na ostatní  relevantní zdroje (Podívej se také do sekce "Také")
+Pokud potřebuješ přidat obrázky do Asciidoc dokumentu, prosím vytvoř složku pojmenovanou "attachments" ve stejné složce, jako je Asciidoc dokument. Obrázku mohou být uloženy v SVG nebo PNG formátu (ne JPG!), s maximální velikostí 200KB.
 
-If you need to add images to the Asciidoc please create a folder called attachments in the same directory as the Asciidoc file. Images can be saved in SVG and PNG format, max size 200KB.
+== Obsah na GitHubu
+Jestli nejsi seznámen s verzovacím nástrojem Git, můžeš přispět rovonou na stránce GitHub pomocí jejich webového rozhraní. Vytvořili jsme krátký návod, jak na to zde: https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37.
 
-== Contribute Content on Github
-If you are not familiar with Git you can contribute content directly on Github via their online interface. We put together a short Tutorial to show you how, https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[CHECK IT OUT!]
-
-link:https://help.github.com/articles/editing-files-in-another-user-s-repository/[You can also follow this guide] (written by the Github team) to learn how to edit an .adoc file and propose a file change to the Arduino team.  
-When suggesting a change, please follow the guidelines described in the Reference template files.
+link:https://help.github.com/en/articles/editing-files-in-another-users-repository[Můžeš také následovat tuto příručku] (Napsána GitHub týmem), aby jsi se nauči(a), jak editovat .adoc soubor a navrhnout změny Arduinu týmu.
+Když navrhuješ změnu, prosím náseduj příručky vysvětlené v dokumentační šabloně.
 
 
-== Submitting a pull request
-We are glad you want to contribute to the Arduino Reference: that's the best way to help the community.
+== Publikování pull requestu
+Jsme hrdí, že máš zájem o přispívání do Arduino dokumentace: je to nejlepší způsob, jak pomoci komunitě.
 
-Your contribution is adding or modifying existing code or full descriptions, please always refer to an existing issue or open a new one before contributing. 
+Pokud tvůj příspěvek do vývoje přidává nebo mění existující kód, prosím vždy uveď již existující ISSUE nebo vytvoř novou na toto téma.
 
-=== Folder Structure
+== Struktura složky
 [source]
 ----
 reference-cz
@@ -52,10 +51,10 @@ reference-cz
 
 ----
 
-Within the Language folder, the file tree follows the same structure as in the link:https://www.arduino.cc/reference/cz[Arduino Reference webpage]
+S vyjímkou Language složky, souborový "strom" následuje stejnou strukturu, jako v tomto linku: https://www.arduino.cc/reference/cz[Arduino Reference webpage].
 
-=== License
+== LICENCE
 
-Please note that your contribution to the Arduino Reference is licensed under a Creative Commons Attribution-Share Alike 3.0 License. see https://creativecommons.org/licenses/by-sa/3.0/
+Prosím pamatuj na to, že tvůj příspěvek do Arduino jazykové dokumentace je licensován pod licencí Creative Commons Attribution-Share Alike 3.0. Podívej se na na tuto stránku, pro více informací https://creativecommons.org/licenses/by-sa/3.0/.
 
 image:https://i.creativecommons.org/l/by-sa/3.0/88x31.png[Creative Commons License, title="Creative Commons License"] This work is licensed under a link:https://creativecommons.org/licenses/by-sa/3.0/deed.en[Creative Commons Attribution-ShareAlike 3.0 Unported License].
