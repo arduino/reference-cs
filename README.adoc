@@ -2,8 +2,7 @@
 
 Reference-cs je repozitář pro Jazykovou Dokumentaci o Arduino syntaxi v češtině.
 
-Díky, za investování času do Arduino obsahu. Je to opravdu přínosné pro celou (celosvětovou) Arduino komunitu. Pokud se chceš dozvědět víc o přispívání do tohoto projektu, prosím navštiv stránky https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[this step by step tutorial].
-
+Díky, za investování tvého času do Arduino obsahu. Je to opravdu přínosné pro celou (celosvětovou) Arduino komunitu. Pokud se chceš dozvědět víc o přispívání do tohoto projektu, prosím navštiv  https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[tento tutoriál "krok po kroku"].
 
 == Vytváření obsahu a editace
 Pokud, chceš přispšt s novým obsahem, vytvoř nový soubor (s jakkýmkoliv textem nebo nebo kódem) a ulož ho jako .adoc. 
@@ -12,13 +11,13 @@ Vyhni se prosím závorkám nebo jiným speciálním znakům v názvu soboru(ů)
 
 Jestli chceš přispět do Jazykové Dokumentace nebo změnit již existující obsah, můžeš najít dvě šablony v reference-cz/AsciiDoc_sample/Reference_Terms:
 
-* Použij https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (rendered https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[here]) for terms such as link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
-* Nebo https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (rendered https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[here]) for groups of functions such as link:http://arduino.cc/en/Reference/Serial[Serial].
+* Použij https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (poskytnuty https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[zde]) pro termíny jako je link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
+* Nebo https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (poskytnuty https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[zde]) proskupiny funkcí jako link:http://arduino.cc/en/Reference/Serial[Serial].
 
 Prosím pamatuj, že každý soubor s dokumenací by měl obsahovat minimálně popis, příklad kódu a linky na ostatní  relevantní zdroje (Podívej se také do sekce "Také")
 Pokud potřebuješ přidat obrázky do ASCII dokumentu, prosím vytvoř složku pojmenovanou "attachments" ve stejné složce, jako je ASCII dokument. Obrázku mohou být uloženy v SVG nebo PNG formátu (ne JPG!), s maximální velikostí 200KB.
 
-== Přispívaný obsah na GitHubu
+== Obsah na GitHubu
 Jestli nejsi seznámen s verzovacím nástrojem Git, můžeš přispět rovonou na stránce GitHub pomocí jejich webového rozhraní. Vytvořili jsme krátký návod, jak na to zde: https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37.
 
 link:https://help.github.com/en/articles/editing-files-in-another-users-repository[Můžeš také následovat tuto příručku] (Napsána GitHub týmem), aby jsi se nauči(a), jak editovat .adoc soubor a navrhnout změny Arduinu týmu.
@@ -56,4 +55,5 @@ S vyjímkou Language složky, souborový "strom" následuje stejnou strukturu, j
 == LICENCE
 
 Prosím pamatuj na to, že tvůj příspěvek do Arduino jazykové dokumentace je licensován pod licencí Creative Commons Attribution-Share Alike 3.0. Podívej se na na tuto stránku, pro více informací https://creativecommons.org/licenses/by-sa/3.0/.
+
 image:https://i.creativecommons.org/l/by-sa/3.0/88x31.png[Creative Commons License, title="Creative Commons License"] This work is licensed under a link:https://creativecommons.org/licenses/by-sa/3.0/deed.en[Creative Commons Attribution-ShareAlike 3.0 Unported License].
