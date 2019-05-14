@@ -7,16 +7,13 @@ Díky, za investování tvého času do Arduino obsahu. Je to opravdu přínosn�
 == Vytváření obsahu a editace
 Pokud, chceš přispšt s novým obsahem, vytvoř nový soubor (s jakkýmkoliv textem nebo nebo kódem) a ulož ho jako .adoc. 
 Vyhni se prosím závorkám nebo jiným speciálním znakům v názvu soboru(ů).
-
+Na stránce https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-cz/AsciiDoc_sample/AsciiDoc_Dictionary`] najdeš přehled o AsciiDoc syntaxi.
+Toto zahrnuje názvy, texty, linky, obrázky, tabulky, kód a různé další multimédia (video, prezentace, audio a kód). Můžeš to najít https://www.arduino.cc/reference/cz/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[zde].
 
 Jestli chceš přispět do Jazykové Dokumentace nebo změnit již existující obsah, můžeš najít dvě šablony v reference-cz/AsciiDoc_sample/Reference_Terms:
 
 * Použij https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (poskytnuty https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[zde]) pro termíny jako je link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
 * Nebo https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (poskytnuty https://www.arduino.cc/reference/cz/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[zde]) proskupiny funkcí jako link:http://arduino.cc/en/Reference/Serial[Serial].
-
-Na stránce https://raw.githubusercontent.com/arduino/reference-cz/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-cz/AsciiDoc_sample/AsciiDoc_Dictionary`] najdeš přehled o AsciiDoc syntaxi.
-Toto zahrnuje názvy, texty, linky, obrázky, tabulky, kód a různé další multimédia (video, prezentace, audio a kód). Můžeš to najít https://www.arduino.cc/reference/cz/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[zde].
-
 
 Prosím pamatuj, že každý soubor s dokumenací by měl obsahovat minimálně popis, příklad kódu a linky na ostatní  relevantní zdroje (Podívej se také do sekce "Také")
 Pokud potřebuješ přidat obrázky do Asciidoc dokumentu, prosím vytvoř složku pojmenovanou "attachments" ve stejné složce, jako je Asciidoc dokument. Obrázku mohou být uloženy v SVG nebo PNG formátu (ne JPG!), s maximální velikostí 200KB.
